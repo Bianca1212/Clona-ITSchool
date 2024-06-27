@@ -1,0 +1,218 @@
+body {
+  /* background-color: rgb(120, 120, 195); */
+  /* background: linear-gradient(0deg, #fdfcfe 0%, #110350 100%); */
+  margin: 15px 180px;
+  /* height: 100vh; */
+  /* background-repeat: no-repeat; */
+  /* height: 500px; */
+  /* width: 200px; */
+  background: linear-gradient(
+    to bottom,
+    rgb(31, 1, 92) 0%,
+    rgb(31, 1, 92) 30%,
+    white 30%,
+    white 50%,
+    rgb(213, 235, 248) 50%,
+    rgb(213, 235, 248) 81%,
+    white 81%,
+    white 97%,
+    rgb(31, 1, 92) 97%,
+    rgb(31, 1, 92) 100%
+  );
+}
+
+/* section-1 {
+  color: rgb(2, 2, 38);
+} */
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  column-gap: 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 0px;
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+  font-weight: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-sizing: border-box;
+}
+
+.navigation ul {
+  gap: 10px;
+  flex-direction: row-reverse;
+  font-size: 24px;
+}
+
+.navigation li {
+  padding: 5px;
+  margin-left: 10px;
+  color: white;
+}
+
+.navigation li:hover {
+  color: rgb(215, 135, 37);
+  padding: 10px;
+}
+
+/* .navigation ul li ul.sub-nav { */
+/* display: none; */
+/* } */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  /* margin-top: 5px; */
+  /* margin-bottom: 5px; */
+  justify-content: flex-start;
+}
+
+.welcome-section {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* margin: 0px; */
+}
+
+.cursuri-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+.imagini-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+.parteneri-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo {
+  width: 160px;
+  height: 60px;
+}
+
+.microsoft {
+  height: 25px;
+  width: 110px;
+}
+
+.adobe {
+  height: 20px;
+  width: 75px;
+}
+
+.apple {
+  height: 25px;
+  width: 30px;
+}
+
+.minister {
+  height: 25px;
+  width: 110px;
+}
+
+.button {
+  border: 2px solid rgb(34, 173, 145);
+  background-color: rgb(34, 173, 145);
+  height: 55px;
+  width: 265px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+hr {
+  /* Style the horizontal line as desired */
+  border: 3px solid #27ddd4;
+  width: 50%; /* Adjust width as needed */
+  margin: 20px auto; /* Center and add margin */
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 370px; /* Lățimea boxului */
+  height: 125px; /* Înălțimea boxului */
+  background-color: white; /* Culoarea de fundal */
+  /* margin: 20px auto; /* Adaugă margini pentru spațiere */
+  /* padding: 10px; Adaugă spațiu între conținut și margini */
+  border: 1px solid #d8d3d3; /* Adaugă un chenar */
+  border-radius: 5px;
+  /* margin-top: 5px; */
+  /* vertical-align: middle; */
+  /* text-align: middle; */
+  padding-left: 8px;
+  gap: 2px;
+}
+
+img {
+  height: 250px;
+  width: 380px;
+}
+
+.parteneri-img {
+  height: 105px;
+  width: 110px;
+  filter: grayscale(1);
+}
+
+.titlu-curs {
+  font-size: 32px;
+  color: rgb(21, 2, 59);
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  background-color: rgb(21, 2, 59);
+}
